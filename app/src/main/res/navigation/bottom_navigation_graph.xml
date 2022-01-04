@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_navigation_graph"
+    app:startDestination="@id/fragment_home">
+    <fragment
+        android:id="@+id/fragment_home"
+        android:name="dev.itsu.manabe.ui.main.home.HomeFragment"
+        android:label="HomeFragment" />
+    <fragment
+        android:id="@+id/fragment_assignments"
+        android:name="dev.itsu.manabe.ui.main.AssignmentsFragment"
+        android:label="AssignmentsFragment" />
+    <fragment
+        android:id="@+id/fragment_notifications"
+        android:name="dev.itsu.manabe.ui.main.NotificationsFragment"
+        android:label="NotificationsFragment" />
+    <fragment
+        android:id="@+id/fragment_courses"
+        android:name="dev.itsu.manabe.ui.main.courses.CoursesFragment"
+        android:label="CoursesFragment" />
+    <fragment
+        android:id="@+id/fragment_timetable"
+        android:name="dev.itsu.manabe.ui.main.TimetableFragment"
+        android:label="TimetableFragment" />
+</navigation>

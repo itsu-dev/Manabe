@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Manabe</string>
+
+    <string name="loading">読み込み中です…</string>
+
+    <string name="all_courses">すべてのコース</string>
+
+    <string name="menu_notifications">おしらせ</string>
+    <string name="menu_timetable">時間割</string>
+    <string name="menu_home">ホーム</string>
+    <string name="menu_assignments">未提出課題</string>
+    <string name="menu_courses">コース</string>
+    <string name="home_assignments_title">未提出の課題</string>
+    <string name="home_assignments_description">残りの課題の数：%d</string>
+    <string name="home_current_course_title">授業中の科目</string>
+    <string name="home_current_course_description">現在行われている授業</string>
+    <string name="course_season">開講時期：%d %s %s</string>
+    <string name="course_teachers">担当教員：%s</string>
+    <string name="course_assignment">課題があります</string>
+    <string name="course_tab_news">ニュース</string>
+    <string name="course_tab_assignments">課題</string>
+    <string name="course_tab_contents">コンテンツ</string>
+    <string name="course_tab_threads">スレッド</string>
+</resources>
